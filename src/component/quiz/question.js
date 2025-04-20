@@ -89,10 +89,15 @@ export const questions = [
     ],
     correctAnswer: "B) Redux throws an error",
   },
+  {
+    question: "How do you write a fragment in JSX?",
+    options: [
+      "A) <frag>",
+      "B) <div className= fragment>",
+      "C) <> ... </>",
+      "<React.Wrap> ... </React.Wrap>",
+    ],
+    correctAnswer: "C) <> ... </>",
+  },
 ];
 
-// 10. Which method is used to combine multiple reducers into one?
-// A) mergeReducers()
-// ✅ B) combineReducers()
-// C) useMultipleReducers()
-// D) createReducer()
